@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Lsjwzh.MaterialLoadingProgressBar.Xamarin.Android</id>
+		<version>0.5.6</version>
+		<title>MaterialLoadingProgressBar for Xamarin.Android</title>
+		<authors>Andriy Matkivskiy</authors>
+		<owners>amatkivskiy</owners>
+		<projectUrl>https://github.com/amatkivskiy/MaterialLoadingProgressBar-Xamarin</projectUrl>
+		<iconUrl>https://raw.githubusercontent.com/amatkivskiy/MaterialLoadingProgressBar-Xamarin/master/dev/package_logo.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>C# bindings for MaterialLoadingProgressBar library.
+MaterialLoadingProgressBar provide a styled ProgressBar which looks like SwipeRefreshLayout's loading indicator(support-v4 v21+).
+https://github.com/lsjwzh/MaterialLoadingProgressBar</description>
+		<summary>Xamarin binding for MaterialLoadingProgressBar https://github.com/lsjwzh/MaterialLoadingProgressBar</summary>
+		<tags>Android Xamarin ProgressBar Material</tags>
+		<releaseNotes>Initial release.</releaseNotes>
+		<dependencies>
+			<dependency id="Xamarin.Android.Support.v4" version="22.2.0.0"/>
+			<dependency id="Xamarin.Android.Support.v7.AppCompat" version="22.2.0.0"/>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="..\library\bin\Release\materialloadingprogressbar-0.5.6.dll" target="lib\MonoAndroid\"/>
+		<file src="..\library\bin\Release\materialloadingprogressbar-0.5.6.pdb" target="lib\MonoAndroid\"/>
+	</files>
+</package>
